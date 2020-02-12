@@ -16,7 +16,8 @@ code .tmpServer1/src/repository/DatabaseFactory.kt
 `
 <br>
 네번째 라인에 있는 {your db name}과 {your user name}에 위에서 생성한 database 이름과 해당 database접속한 유저name을 적고 저장
-`kotlin
+<br>
+`java
 private fun hikari(): HikariDataSource {
     val config = HikariConfig()
     config.driverClassName = "org.postgresql.Driver"
