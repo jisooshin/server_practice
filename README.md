@@ -15,7 +15,9 @@
 code .tmpServer1/src/repository/DatabaseFactory.kt
 `
 <br>
-네번째 라인에 있는 {your db name}과 {your user name}에 위에서 생성한 database 이름과 해당 database접속한 유저name을 적고 저장
+네번째 라인에 있는 {your db name}과 {your user name}에 
+<br>
+위에서 생성한 database 이름과 해당 database접속한 유저 name을 적고 저장
 <br>
 
 
@@ -34,9 +36,8 @@ private fun hikari(): HikariDataSource {
 
 
 
-tmpServer1 디렉토리에서 실행
+tmpServer1 디렉토리에서 아래의 커맨드 실행
 
 
-`
-./gradlew run
-`
+```./gradlew run
+
