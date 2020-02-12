@@ -37,5 +37,7 @@ private fun hikari(): HikariDataSource {
 
 
 tmpServer1 디렉토리에서 아래의 커맨드 실행
-`./gradlew run
+```
+./gradlew run
+```
 
